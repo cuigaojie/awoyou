@@ -2,38 +2,57 @@
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
 margin: 0;
 padding: 0;}
-body{font-size: 14px;font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif}
+body{font-size: 14px;font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;
+background: #f5f5f5;}
 ul li{list-style: none;}
 h3{font-weight: normal;}
 a{text-decoration: none;}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+.fweight{font-weight: bold;}
 .fz11{font-size: 11px;}
-.fz18{font-size: 18px;}
 .fz12{font-size: 12px;}
+.fz15{font-size: 15px;}
 .fz16{font-size: 16px;}
+.fz18{font-size: 18px;}
+.fz50{font-size: 50px;}
 .fleft{float: left;}
 .fright{float: right;}
 .text-center{text-align: center;}
 .oh{overflow: hidden;}
 .light{color: #fff;}
 .color66{color: #666;}
+.color68{color: #686868;}
+.colorpink{color: #fe8eaf;}
+.color47{color: #474747;}
+.color00{color: #000;}
+.colored{color:#ff6565}
+.color33{color: #333;}
 .bgf5{background-color: #f5f5f5;}
 .bglight{background-color: #fff;}
 .bgdark{background-color: #393a3e;}
+.bgpink{background-color: #fe8eaf;}
 .padding{padding: 10px;}
 .padleft10{padding-left: 10px;}
 .padtb10{padding: 10px 0px;}
+.padlr10{padding: 0px 10px;}
 .padlr20{padding: 0px 20px;}
+.padlr30{padding: 0 35px;}
+.padleft90{padding-left: 90px}
 .padtop10{padding-top: 10px;}
 .padleft15{padding-left: 15px;}
 .marleft50{margin-left: 50px;}
+.martop10{margin-top: 10px;}
 .martop20{margin-top: 20px;}
+.marlr5{margin: 0 5px;}
+.border{border: 1px solid #ddd;}
 .borbt{border-bottom: 1px solid #ddd;}
+.borbt3{border-bottom: 1px solid #474747;}
 .bortp{border-top: 1px solid #ddd;}
+.bordlr{ border-left:1px solid #ddd;border-right:1px solid #ddd;}
 .title{vertical-align: middle;position: relative;}
 .dflex{ display: -webkit-flex; display: flex;}
 .dflex li{flex: 1; text-align: center;}
-.color68{color: #686868;}
-.marlr5{margin: 0 5px;}
 .list li{border-bottom: 1px solid #ddd;overflow: hidden; height: 40px;line-height: 40px;}
 /*个人中心*/
 .title .btn{background-color: transparent;width:32px;height: 6px;border: none;}
@@ -54,3 +73,16 @@ a{text-decoration: none;}
 .listadr li input{border: none;outline: none; width:250px;}
 .operate{position: absolute;bottom: 0;left: 0;}
 .operate span{width: 50%; overflow: hidden;}
+.tabs a{display: block;float: left; width: 33.3%;height: 40px;color: #000; text-align: center;
+line-height: 40px;font-size: 15px;box-sizing: border-box}
+.active{color: #fe8eaf; border-bottom: 1px solid #FE8EAF;}
+.discount{width: 100%;height: 103px;background-image: url("../images/discount.png") ;background-size: 100% 100%}
+.order_tab li{height: 40px;line-height: 40px}
+.goods_content img{float: left;height: 80px;}
+.forward{width: 7px;height: 15px;display: block;float: left; background-image: url(../images/forwards.png);background-size: cover}
+.btn_order{width: 88px; height: 30px;display: block;float: right;
+    margin: 0 5px;line-height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
