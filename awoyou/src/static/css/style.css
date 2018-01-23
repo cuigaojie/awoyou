@@ -1,0 +1,56 @@
+/*公共样式*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
+margin: 0;
+padding: 0;}
+body{font-size: 14px;font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif}
+ul li{list-style: none;}
+h3{font-weight: normal;}
+a{text-decoration: none;}
+.fz11{font-size: 11px;}
+.fz18{font-size: 18px;}
+.fz12{font-size: 12px;}
+.fz16{font-size: 16px;}
+.fleft{float: left;}
+.fright{float: right;}
+.text-center{text-align: center;}
+.oh{overflow: hidden;}
+.light{color: #fff;}
+.color66{color: #666;}
+.bgf5{background-color: #f5f5f5;}
+.bglight{background-color: #fff;}
+.bgdark{background-color: #393a3e;}
+.padding{padding: 10px;}
+.padleft10{padding-left: 10px;}
+.padtb10{padding: 10px 0px;}
+.padlr20{padding: 0px 20px;}
+.padtop10{padding-top: 10px;}
+.padleft15{padding-left: 15px;}
+.marleft50{margin-left: 50px;}
+.martop20{margin-top: 20px;}
+.borbt{border-bottom: 1px solid #ddd;}
+.bortp{border-top: 1px solid #ddd;}
+.title{vertical-align: middle;position: relative;}
+.dflex{ display: -webkit-flex; display: flex;}
+.dflex li{flex: 1; text-align: center;}
+.color68{color: #686868;}
+.marlr5{margin: 0 5px;}
+.list li{border-bottom: 1px solid #ddd;overflow: hidden; height: 40px;line-height: 40px;}
+/*个人中心*/
+.title .btn{background-color: transparent;width:32px;height: 6px;border: none;}
+.title .pmore{background: url(../images/icon_more.png) no-repeat; background-size: contain;position: absolute;top: 50%;right:0;margin-top: -3px;}
+.user-info{height: 126px;}
+.user-info .info img{height: 75px; text-align: center;}
+.user-info .leavl{background-color: #fe8eaf;padding:1px 7px;border-radius: 10px;}
+.order img{height: 22px;float: left;}
+.enter img{width:9px ;height: 17px;}
+.ordercon li img{height: 22px;margin-top: 10px;}
+.order2 li img{height: 32px;margin-top: 10px;}
+.order2 li p{padding:5px 0;}
+.bgline{height: 30px; text-align: center; line-height:30px;position: relative;z-index: -9;}
+.bgline1{width: 200px;height: 1px;position: absolute;left: 50%;margin-left: -100px;background: #FE8EAF;top: 12px;z-index:-1;}
+.youlike{display: block;width:80px;height: 30px;background-color:#f5f5f5 ;z-index: 99;margin: 0 auto;}
+.address_del img{height: 15px;}
+.listadr li span{width: 95px;color: #686868;}
+.listadr li input{border: none;outline: none; width:250px;}
+.operate{position: absolute;bottom: 0;left: 0;}
+.operate span{width: 50%; overflow: hidden;}
