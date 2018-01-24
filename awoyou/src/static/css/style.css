@@ -1,7 +1,6 @@
 /*公共样式*/
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
-margin: 0;
-padding: 0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset,button, input, textarea, form, th, td {
+margin: 0;padding: 0;}
 body{font-size: 14px;font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;
 background: #f5f5f5;}
 ul li{list-style: none;}
@@ -34,9 +33,9 @@ i,em{font-style: normal;}
 .bgpink{background-color: #fe8eaf;}
 .padding{padding: 10px;}
 .padleft10{padding-left: 10px;}
-.padtb10{padding: 10px 0px;}
-.padlr10{padding: 0px 10px;}
-.padlr20{padding: 0px 20px;}
+.padtb10{padding: 10px 0;}
+.padlr10{padding: 0 10px;}
+.padlr20{padding: 0 20px;}
 .padlr30{padding: 0 35px;}
 .padleft90{padding-left: 90px}
 .padtop10{padding-top: 10px;}
@@ -81,8 +80,104 @@ line-height: 40px;font-size: 15px;box-sizing: border-box}
 .goods_content img{float: left;height: 80px;}
 .forward{width: 7px;height: 15px;display: block;float: left; background-image: url(../images/forwards.png);background-size: cover}
 .btn_order{width: 88px; height: 30px;display: block;float: right;
-    margin: 0 5px;line-height: 30px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    margin: 0 5px;line-height: 30px; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+/*支付成功*/
+.paytitle{
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #fff;
+}
+.pay_sus{
+    padding-top: 15px;
+}
+.pay_sus span{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-image: url(../images/paysuccess.png);
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.pay_lose span{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-image: url(../images/payfailure.png);
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.pay_con .sus{
+    font-size: 30px;
+    color: #f95d6b;
+    margin: 20px 0;
+}
+.pay_con .pink a{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-image: url(../images/pinksuccess.png);
+    background-size: contain;
+    color: #fff;
+}
+
+.score_section {
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+/*我的积分*/
+.score_section .circle {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: url(../images/score_action.png) no-repeat center;
+    background-size: cover;
+}
+
+.title .score_head {
+    position: absolute;
+    /*top:50%;*/
+    left: 10px;
+    width: 15px;
+    height: 20px;
+    background: url(../images/back.png) no-repeat;
+    background-size: contain;
+}
+
+.score_use a {
+    width: 110px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #474747;
+}
+
+.score_section h1 {
+    font-size: 30px;
+}
+
+.score_section .mtb {
+    margin: 10px 0;
+}
+
+.score_section .fright {
+    /*line-height: 15px;*/
+    height: 15px;
+    vertical-align: middle;
+}
+
+.score_con ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #eeeeee;
+}
+.score_con ul li {
+    list-style: none;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
 }
